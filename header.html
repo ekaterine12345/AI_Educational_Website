@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="/css/main.min.css" rel="stylesheet" >
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light my_navbar fixed-top">
+        <div class="container-xxl">
+            <a href="index.html" class="navbar-brand">
+                <span class="fw-bold text-secondary  text-white">
+                    <i class="bi bi-robot"></i>
+                    AI Center
+                </span>
+            </a>
+
+            <!-- toogle button for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+             data-bs-target="#main-nav"
+              aria-controls="main-nav" 
+              aria-expanded="false" aria-label="Toggle navigation"> 
+
+              <span class="navbar-toogle-icon"></span>
+            </button>
+
+            <!-- navbar toogle links -->
+            <div class="collapse navbar-collapse justify-content-end align-center"
+            id="main-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html#topics" >About The Center</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./reviews.html">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" >Contact</a>
+                </li>
+                <li class="nav-item d-md-none">
+                    <a class="nav-link" href="index.html#pricing" >Pricing Plans</a>
+                </li>
+                <li class="nav-item ms-2 d-none d-md-inline">
+                    <a class="btn btn-success" href="./index.html#pricing" >Purchase Now</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+    <script>
+
+
+        const tooltips = document.querySelectorAll(".tt");
+        tooltips.forEach( t=>{
+            new bootstrap.Tooltip(t)
+        })
+    </script>
+
+</body>
+</html>

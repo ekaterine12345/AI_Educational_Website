@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(208, 240, 234, 0.3);
+}
+.my_navbar{
+    background-color: rgb(60, 148, 170);
+    color: wheat;
+}
+.my_navbar li:hover{
+    background-color: rgb(60, 148, 190);
+}
+
+#intro{
+    background-color: rgba(208, 240, 234, 0.3);
+}
+.my_intro_img{
+    border-radius: 1em;
+}

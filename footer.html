@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+      <!-- get updates / modal triger -->
+      <section class="bg-light pb-3 mt-3">
+        <div class="container">
+            <div class="text-center">
+                <h2>Be Updated</h2>
+                <p class="lead">Get the latest news as they happen</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Aliquam ex illum cupiditate inventore sapiente, dignissimos
+                        culpa asperiores voluptatem iste sunt?</p>
+                        <button class="btn btn-outline-primary" data-bs-toggle="modal"
+                        data-bs-target="#reg-modal"> Register For Updates</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- modal itself -->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title"
+    aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title" >Get the latest updates</h5>
+                    <button type="button" class="button-close" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+                         porro asperiores odio autem libero ea numquam exercitationem 
+                         doloribus quam, laboriosam quidem nobis voluptates ullam? Ipsa
+                         dolorem minima recusandae libero deserunt?</p>
+                         <label for="modal-email" class="form-label">Your Email Address:</label>
+                         <input type="email" class="form-control" id="modal-email" 
+                         placeholder="e. g mari@example.com">
+                </div>  
+                
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
