@@ -8,7 +8,7 @@
 
 On main page there are different sections
 
-# Used technologies -
+# Used technologies 
 * HTML
 * CSS
 * Bootstrap 
