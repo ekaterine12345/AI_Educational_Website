@@ -12,3 +12,6 @@ On main page there are different sections
 * HTML
 * CSS
 * Bootstrap 
+
+# Link to Demo
+https://ai-educational-website.netlify.app/
